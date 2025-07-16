@@ -7,8 +7,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
         <title>My Webpage</title>
-        
     </head>
     <body>
         <div id="page1" class="page">
@@ -26,16 +26,16 @@
                         <div class="collapse navbar-collapse " id="navbarNav">
                             <ul class="navbar-nav nav" style="font-size: larger;">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#AboutMe">About Me</a>
+                                    <a class="nav-link" aria-current="page" onclick="scrollToID('AboutMe')">About Me</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#Education">Education</a>
+                                    <a class="nav-link" onclick="scrollToID('Education')">Education</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#TechSkills">Techincal Skills</a>
+                                    <a class="nav-link" onclick="scrollToID('TechSkills')">Techincal Skills</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#ContactDeets">Contact Me</a>
+                                    <a class="nav-link" onclick="scrollToID('ConatactDeets')">Contact Me</a>
                                 </li>
                             </ul>
                         </div>
